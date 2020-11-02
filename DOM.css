@@ -1,0 +1,40 @@
+header {
+    color:rgb(255, 204, 127);
+
+}
+
+.closed {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    padding: 12px 16px;
+    transform: translate(0%, -50%);
+}
+
+.closed:hover {
+    background: #bbb;
+}
+
+ol li {
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    margin-top: -1px;
+    background-color:rgb(230, 215, 215);
+    padding: 12px;
+    text-decoration: none;
+
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+ol li:hover {
+    background-color: #eee;
+}
